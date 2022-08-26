@@ -1,0 +1,35 @@
+spring:
+
+  datasource:
+
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+
+    url: jdbc:sqlserver://localhost:1433;DatabaseName=YXHIS
+
+    username: sa
+
+    password: 123qwe,.
+
+    maxActive: 20
+
+    initialSize: 1
+
+    maxWait: 60000
+
+    minIdle: 1
+
+    timeBetweenEvictionRunsMillis: 60000
+
+    minEvictableIdleTimeMillis: 300000
+
+    validationQuery: select 1
+
+    testWhileIdle: true
+
+    testOnBorrow: true
+
+    testOnReturn: true
+
+    poolPreparedStatements: true
+
+    maxOpenPreparedStatements: 20
