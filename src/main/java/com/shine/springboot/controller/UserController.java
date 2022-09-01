@@ -19,7 +19,7 @@ public class UserController {
     @ResponseBody
     @RequestMapping("/index")
     public String Index(){
-        return "Welcom HomePage";
+        return "Welcome HomePage";
     }
 }
 /**
